@@ -1,0 +1,19 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Fyyur | Artists{% endblock %}
+{% block content %}
+<ul class="items">
+	{% for artist in artists %}
+	<li>
+		<a href="/artists/{{ artist.id }}">
+			<i class="fas fa-users"></i>
+			<div class="item">
+				<h5>{{ artist.name }}</h5>
+			</div>
+		</a>
+	</li>
+	{% endfor %}
+</ul>
+<form action="{{ url_for('create_artist_form') }}">
+	<button type = "submit">Create artist</button>
+</form>
+{% endblock %}

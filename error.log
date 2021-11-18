@@ -1,0 +1,1353 @@
+
+2021-01-26 22:22:04,425 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:596]
+2021-01-26 22:22:59,786 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:596]
+2021-01-26 22:23:13,677 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:596]
+2021-01-26 22:23:55,521 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:596]
+2021-01-26 22:24:38,833 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:596]
+2021-01-26 22:25:18,100 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:596]
+2021-01-26 22:27:09,012 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:596]
+2021-01-26 22:29:24,305 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:596]
+2021-01-26 22:29:28,692 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 191, in show_venue
+    venue = db.session.filter(Venue.id == venue_id)
+AttributeError: 'scoped_session' object has no attribute 'filter'
+2021-01-26 22:30:11,375 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:596]
+2021-01-26 22:30:14,697 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 191, in show_venue
+    venue = db.session.filter(db.Venue.id == venue_id)
+AttributeError: 'scoped_session' object has no attribute 'filter'
+2021-01-26 22:31:33,125 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:596]
+2021-01-26 22:31:36,244 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 191, in show_venue
+    venue = Venue.Query.get(venue_id)
+AttributeError: type object 'Venue' has no attribute 'Query'
+2021-01-26 22:31:53,872 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:596]
+2021-01-26 22:38:12,928 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:599]
+2021-01-26 22:38:15,188 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 195, in show_venue
+    data['upcoming_shows'] = db.session.Query(Show.filter(Show.venue_id == venue_id,Show.start_time>datetime.now()))
+AttributeError: 'scoped_session' object has no attribute 'Query'
+2021-01-26 22:38:33,868 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:599]
+2021-01-26 22:38:35,213 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 195, in show_venue
+    data['upcoming_shows'] = db.session.query(Show.filter(Show.venue_id == venue_id,Show.start_time>datetime.now()))
+AttributeError: type object 'Show' has no attribute 'filter'
+2021-01-26 22:44:05,744 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:599]
+2021-01-26 22:44:08,483 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 195, in show_venue
+    data['upcoming_shows'] = db.session.query(Show.venue_id).join(Venue,Show.venue_id==Venue.id).join(Artist,Show.artist_id== Artist.id).filter(Venue.id== venue_id,Show.start_time>datetime.now()).all()
+TypeError: 'Venue' object does not support item assignment
+2021-01-26 22:49:20,549 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 195, in show_venue
+    data['upcoming_shows'] = db.session.query(Show.venue_id).join(Venue,Show.venue_id==Venue.id).join(Artist,Show.artist_id== Artist.id).filter(Venue.id== venue_id,Show.start_time>datetime.now()).all()
+TypeError: 'Venue' object does not support item assignment
+2021-01-26 22:49:44,917 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:601]
+2021-01-26 22:54:10,678 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:601]
+2021-01-26 22:55:54,097 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:603]
+2021-01-26 23:01:33,446 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:604]
+2021-01-26 23:04:38,089 ERROR: Exception on /artists/3 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 422, in show_artist
+    "upcoming_shows_count": 3,
+NameError: name 'data1' is not defined
+2021-01-26 23:04:57,846 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:606]
+2021-01-26 23:05:01,728 ERROR: Exception on /artists/3 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 351, in show_artist
+    data["upcoming_shows"] = ""
+TypeError: 'BaseQuery' object does not support item assignment
+2021-01-26 23:05:37,003 ERROR: Exception on /artists/3 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 351, in show_artist
+    #data["upcoming_shows"] = ""
+TypeError: 'BaseQuery' object does not support item assignment
+2021-01-26 23:05:43,603 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:606]
+2021-01-26 23:06:41,429 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:606]
+2021-01-26 23:06:45,271 ERROR: Exception on /artists/3 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 425, in show_artist
+    return render_template('pages/show_artist.html', artist=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 13, in block "content"
+    {% for genre in artist.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-26 23:09:11,253 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:607]
+2021-01-26 23:10:22,164 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:607]
+2021-01-26 23:10:31,411 ERROR: Exception on /artists/3 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 426, in show_artist
+    return render_template('pages/show_artist.html', artist=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 13, in block "content"
+    {% for genre in artist.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-26 23:11:13,946 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:607]
+2021-01-26 23:11:16,657 ERROR: Exception on /artists/3 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 426, in show_artist
+    return render_template('pages/show_artist.html', artist=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 13, in block "content"
+    {% for genre in artist.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-26 23:11:20,527 ERROR: Exception on /artists/3 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 426, in show_artist
+    return render_template('pages/show_artist.html', artist=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 13, in block "content"
+    {% for genre in artist.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-26 23:12:30,062 ERROR: Exception on /artists/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 426, in show_artist
+    return render_template('pages/show_artist.html', artist=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 13, in block "content"
+    {% for genre in artist.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-26 23:12:34,257 ERROR: Exception on /artists/4 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 426, in show_artist
+    return render_template('pages/show_artist.html', artist=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 13, in block "content"
+    {% for genre in artist.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-26 23:12:37,764 ERROR: Exception on /artists/4 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 426, in show_artist
+    return render_template('pages/show_artist.html', artist=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_artist.html", line 13, in block "content"
+    {% for genre in artist.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-26 23:14:44,056 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:607]
+2021-01-26 23:17:03,450 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:609]
+2021-01-26 23:17:07,373 ERROR: Exception on /shows [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 565, in shows
+    return render_template('pages/shows.html', shows=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\shows.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\shows.html", line 9, in block "content"
+    <h4>{{ show.start_time|datetime('full') }}</h4>
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 106, in format_datetime
+    date = dateutil.parser.parse(value)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 1168, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 556, in parse
+    res, skipped_tokens = self._parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 675, in _parse
+    l = _timelex.split(timestr)         # Splits the timestr into tokens
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 192, in split
+    return list(cls(s))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 59, in __init__
+    if getattr(instream, 'read', None) is None:
+jinja2.exceptions.UndefinedError: 'app.Venue object' has no attribute 'start_time'
+2021-01-26 23:24:33,297 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:612]
+2021-01-26 23:24:56,356 ERROR: Exception on /shows [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 568, in shows
+    return render_template('pages/shows.html', shows=data)
+NameError: name 'data' is not defined
+2021-01-26 23:25:50,478 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:613]
+2021-01-26 23:25:57,749 ERROR: Exception on /shows [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 569, in shows
+    return render_template('pages/shows.html', shows=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\shows.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\shows.html", line 9, in block "content"
+    <h4>{{ show.start_time|datetime('full') }}</h4>
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 106, in format_datetime
+    date = dateutil.parser.parse(value)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 1168, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 556, in parse
+    res, skipped_tokens = self._parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 675, in _parse
+    l = _timelex.split(timestr)         # Splits the timestr into tokens
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 192, in split
+    return list(cls(s))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 60, in __init__
+    raise TypeError('Parser must be a string or character stream, not '
+TypeError: Parser must be a string or character stream, not datetime
+2021-01-27 20:15:47,250 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:615]
+2021-01-27 20:17:56,437 ERROR: Exception on /shows [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 571, in shows
+    return render_template('pages/shows.html', shows=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\shows.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\shows.html", line 9, in block "content"
+    <h4>{{ show.start_time|datetime('full') }}</h4>
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 106, in format_datetime
+    date = dateutil.parser.parse(value)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 1168, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 556, in parse
+    res, skipped_tokens = self._parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 675, in _parse
+    l = _timelex.split(timestr)         # Splits the timestr into tokens
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 192, in split
+    return list(cls(s))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 60, in __init__
+    raise TypeError('Parser must be a string or character stream, not '
+TypeError: Parser must be a string or character stream, not datetime
+2021-01-27 20:18:51,984 ERROR: Exception on /shows [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 571, in shows
+    return render_template('pages/shows.html', shows=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\shows.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\shows.html", line 9, in block "content"
+    <h4>{{ show.start_time|datetime('full') }}</h4>
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 106, in format_datetime
+    date = dateutil.parser.parse(value)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 1168, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 556, in parse
+    res, skipped_tokens = self._parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 675, in _parse
+    l = _timelex.split(timestr)         # Splits the timestr into tokens
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 192, in split
+    return list(cls(s))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 60, in __init__
+    raise TypeError('Parser must be a string or character stream, not '
+TypeError: Parser must be a string or character stream, not datetime
+2021-01-27 20:21:01,643 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:615]
+2021-01-27 20:24:47,438 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:614]
+2021-01-27 21:00:59,160 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:641]
+2021-01-27 21:01:02,389 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 207, in show_venue
+    data['upcoming_shows_count'] = len(upcoming_shows)
+TypeError: 'Venue' object does not support item assignment
+2021-01-27 21:01:34,037 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:641]
+2021-01-27 21:01:36,409 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 217, in show_venue
+    past_shows_list.append(show.__dict__)
+AttributeError: 'result' object has no attribute '__dict__'
+2021-01-27 21:02:25,791 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:641]
+2021-01-27 21:02:33,557 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 226, in show_venue
+    return render_template('pages/show_venue.html', venue=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 71, in block "content"
+    <h6>{{ show.start_time|datetime('full') }}</h6>
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 106, in format_datetime
+    date = dateutil.parser.parse(value)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 1168, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 556, in parse
+    res, skipped_tokens = self._parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 675, in _parse
+    l = _timelex.split(timestr)         # Splits the timestr into tokens
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 192, in split
+    return list(cls(s))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 60, in __init__
+    raise TypeError('Parser must be a string or character stream, not '
+TypeError: Parser must be a string or character stream, not datetime
+2021-01-27 21:06:21,333 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:641]
+2021-01-27 21:06:37,259 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:641]
+2021-01-27 21:06:50,332 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:641]
+2021-01-27 21:06:55,949 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:641]
+2021-01-27 21:07:02,036 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 226, in show_venue
+    return render_template('pages/show_venue.html', venue=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 71, in block "content"
+    <h6>{{ show.start_time|datetime('full') }}</h6>
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 106, in format_datetime
+    date = dateutil.parser.parse(value)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 1168, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 556, in parse
+    res, skipped_tokens = self._parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 675, in _parse
+    l = _timelex.split(timestr)         # Splits the timestr into tokens
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 192, in split
+    return list(cls(s))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 60, in __init__
+    raise TypeError('Parser must be a string or character stream, not '
+TypeError: Parser must be a string or character stream, not datetime
+2021-01-28 11:26:15,360 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:668]
+2021-01-28 11:26:28,707 ERROR: Exception on /venues [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: column venues.genres does not exist
+LINE 1: ...nk, venues.facebook_link AS venues_facebook_link, venues.gen...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 137, in venues
+    venues = Venue.query.all()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\orm\query.py", line 3373, in all
+    return list(self)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\orm\query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\orm\query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\sql\elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\util\compat.py", line 182, in raise_
+    raise exception
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column venues.genres does not exist
+LINE 1: ...nk, venues.facebook_link AS venues_facebook_link, venues.gen...
+                                                             ^
+
+[SQL: SELECT venues.id AS venues_id, venues.name AS venues_name, venues.city AS venues_city, venues.state AS venues_state, venues.address AS venues_address, venues.phone AS venues_phone, venues.image_link AS venues_image_link, venues.facebook_link AS venues_facebook_link, venues.genres AS venues_genres, venues.website AS venues_website, venues.seeking_talent AS venues_seeking_talent, venues.seeking_description AS venues_seeking_description 
+FROM venues]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+2021-01-28 11:32:55,238 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: column venues.genres does not exist
+LINE 1: ...nk, venues.facebook_link AS venues_facebook_link, venues.gen...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 194, in show_venue
+    venue = Venue.query.get(venue_id)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\orm\query.py", line 1018, in get
+    return self._get_impl(ident, loading.load_on_pk_identity)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\orm\query.py", line 1135, in _get_impl
+    return db_load_fn(self, primary_key_identity)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\orm\loading.py", line 286, in load_on_pk_identity
+    return q.one()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\orm\query.py", line 3490, in one
+    ret = self.one_or_none()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\orm\query.py", line 3459, in one_or_none
+    ret = list(self)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\orm\query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\orm\query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\sql\elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\util\compat.py", line 182, in raise_
+    raise exception
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\sqlalchemy\engine\default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column venues.genres does not exist
+LINE 1: ...nk, venues.facebook_link AS venues_facebook_link, venues.gen...
+                                                             ^
+
+[SQL: SELECT venues.id AS venues_id, venues.name AS venues_name, venues.city AS venues_city, venues.state AS venues_state, venues.address AS venues_address, venues.phone AS venues_phone, venues.image_link AS venues_image_link, venues.facebook_link AS venues_facebook_link, venues.genres AS venues_genres, venues.website AS venues_website, venues.seeking_talent AS venues_seeking_talent, venues.seeking_description AS venues_seeking_description 
+FROM venues 
+WHERE venues.id = %(param_1)s]
+[parameters: {'param_1': 1}]
+(Background on this error at: http://sqlalche.me/e/13/f405)
+2021-01-28 11:38:17,182 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:685]
+2021-01-28 11:38:20,554 ERROR: Exception on /venues/create [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 285, in create_venue_form
+    form = VenueForm()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\wtforms\form.py", line 208, in __call__
+    return type.__call__(cls, *args, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask_wtf\form.py", line 157, in __init__
+    super(Form, self).__init__(*args, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask_wtf\form.py", line 87, in __init__
+    super(FlaskForm, self).__init__(formdata=formdata, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\wtforms\form.py", line 268, in __init__
+    super(Form, self).__init__(self._unbound_fields, meta=meta_obj, prefix=prefix)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\wtforms\form.py", line 51, in __init__
+    field = meta.bind_field(self, unbound_field, options)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\wtforms\meta.py", line 27, in bind_field
+    return unbound_field.bind(form=form, **options)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\wtforms\fields\core.py", line 376, in bind
+    return self.field_class(*self.args, **kw)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\wtforms\fields\core.py", line 750, in __init__
+    super(BooleanField, self).__init__(label, validators, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'choices'
+2021-01-28 11:46:47,206 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:685]
+2021-01-28 11:48:39,910 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:685]
+2021-01-28 11:48:47,798 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:685]
+2021-01-28 11:48:54,711 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:685]
+2021-01-28 11:49:02,796 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:685]
+2021-01-28 11:50:51,510 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:685]
+2021-01-28 11:51:01,744 ERROR: Exception on /venues/5 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 230, in show_venue
+    return render_template('pages/show_venue.html', venue=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 13, in block "content"
+    {% for genre in venue.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-28 11:53:32,916 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:685]
+2021-01-28 11:53:35,619 ERROR: Exception on /venues/5 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 230, in show_venue
+    return render_template('pages/show_venue.html', venue=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 13, in block "content"
+    {% for genre in venue.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-28 11:53:45,278 ERROR: Exception on /venues/5 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 230, in show_venue
+    return render_template('pages/show_venue.html', venue=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 13, in block "content"
+    {% for genre in venue.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-28 11:54:08,086 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:685]
+2021-01-28 11:54:22,623 ERROR: Exception on /venues/5 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 230, in show_venue
+    return render_template('pages/show_venue.html', venue=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 13, in block "content"
+    {% for genre in venue.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-28 11:55:11,977 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:685]
+2021-01-28 11:55:23,129 ERROR: Exception on /venues/5 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 230, in show_venue
+    return render_template('pages/show_venue.html', venue=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 13, in block "content"
+    {% for genre in venue.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-28 11:56:15,261 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:685]
+2021-01-28 11:56:20,126 ERROR: Exception on /venues/5 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 230, in show_venue
+    return render_template('pages/show_venue.html', venue=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 65, in block "content"
+    <h6>{{ show.start_time|datetime('full') }}</h6>
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 109, in format_datetime
+    date = dateutil.parser.parse(value)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 1168, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 556, in parse
+    res, skipped_tokens = self._parse(timestr, **kwargs)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 675, in _parse
+    l = _timelex.split(timestr)         # Splits the timestr into tokens
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 192, in split
+    return list(cls(s))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\dateutil\parser.py", line 60, in __init__
+    raise TypeError('Parser must be a string or character stream, not '
+TypeError: Parser must be a string or character stream, not datetime
+2021-01-28 12:23:09,307 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:700]
+2021-01-28 12:23:17,418 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:700]
+2021-01-28 12:23:22,266 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:700]
+2021-01-28 12:23:27,866 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:700]
+2021-01-28 12:26:39,168 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 231, in show_venue
+    return render_template('pages/show_venue.html', venue=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 13, in block "content"
+    {% for genre in venue.genres %}
+TypeError: 'NoneType' object is not iterable
+2021-01-28 12:28:01,017 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:701]
+2021-01-28 12:30:17,630 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:701]
+2021-01-28 12:30:22,622 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:701]
+2021-01-28 12:30:34,120 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:701]
+2021-01-28 12:31:39,142 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:702]
+2021-01-28 12:32:47,265 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:702]
+2021-01-28 12:37:07,812 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:702]
+2021-01-28 12:38:18,656 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:702]
+2021-01-28 12:39:24,933 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:702]
+2021-01-28 12:40:41,458 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:702]
+2021-01-28 12:41:55,472 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:702]
+2021-01-28 12:48:09,903 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:701]
+2021-01-28 12:48:52,034 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 232, in show_venue
+    return render_template('pages/show_venue.html', venue=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 80, in block "content"
+    <form action="{{ url_for('edit_venue') }}">
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'edit_venue'. Did you forget to specify values ['venue_id']?
+2021-01-28 12:50:27,522 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:701]
+2021-01-28 12:50:30,824 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 232, in show_venue
+    return render_template('pages/show_venue.html', venue=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\loaders.py", line 127, in load
+    code = environment.compile(source, name, filename)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 638, in compile
+    self.handle_exception(source=source_hint)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 80, in template
+    <form action="{{ url_for('edit_venue') {{venue.id}} }}">
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got '{'
+2021-01-28 12:52:47,271 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:701]
+2021-01-28 12:52:51,481 ERROR: Exception on /venues/1 [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 232, in show_venue
+    return render_template('pages/show_venue.html', venue=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\loaders.py", line 127, in load
+    code = environment.compile(source, name, filename)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 638, in compile
+    self.handle_exception(source=source_hint)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\show_venue.html", line 80, in template
+    <form action="{{ url_for('edit_venue', venue_id = {{venue.id}})  }}">
+jinja2.exceptions.TemplateSyntaxError: expected token ':', got '}'
+2021-01-28 12:55:07,053 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:701]
+2021-01-28 12:57:23,023 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:701]
+2021-01-28 12:58:58,655 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:701]
+2021-01-28 12:59:31,083 ERROR: Exception on /shows [GET] [in c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py:1891]
+Traceback (most recent call last):
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py", line 656, in shows
+    return render_template('pages/shows.html', shows=data)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\shows.html", line 1, in top-level template code
+    {% extends 'layouts/main.html' %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\layouts\main.html", line 103, in top-level template code
+    {% block content %}{% endblock %}
+  File "D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\templates\pages\shows.html", line 17, in block "content"
+    <form action="{{ url_for('create_show_form') }}">
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "c:\users\engre\appdata\local\programs\python\python39\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'create_show_form'. Did you mean 'create_shows' instead?
+2021-01-28 17:17:22,895 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:634]
+2021-01-28 17:19:03,530 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:636]
+2021-01-28 17:23:24,591 INFO: errors [in D:\Reem\Udacity\FSND\projects\01_fyyur\starter_code\app.py:638]
